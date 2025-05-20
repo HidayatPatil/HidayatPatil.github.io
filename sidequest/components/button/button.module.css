@@ -1,0 +1,86 @@
+.button {
+    display: flex;
+    width: 100%;
+    max-width: 361px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--Primary-primary-BASE, #3f9fff);
+    box-shadow: 0px 4px 0px 0px #2d71b5;
+    color: white;
+    border: none;
+}
+
+.secondary {
+    background: var(--WHITE, #fff);
+    border-top: 1px solid var(--Primary-primary-700, #2d71b5);
+    border-right: 1px solid var(--Primary-primary-700, #2d71b5);
+    border-left: 1px solid var(--Primary-primary-700, #2d71b5);
+    box-shadow: 0px 4px 0px 0px #2d71b5;
+    color: #2d71b5;
+}
+
+.outline {
+    background: var(--WHITE, #fff);
+    border-top: 1px solid var(--Secondary-secondary-100, #d6d3d2);
+    border-right: 1px solid var(--Secondary-secondary-100, #d6d3d2);
+    border-left: 1px solid var(--Secondary-secondary-100, #d6d3d2);
+    box-shadow: 0px 4px 0px 0px #d6d3d2;
+    color: #333;
+}
+
+.disabled {
+    background: var(--Secondary-secondary-75, #e4e2e0);
+    border: 1px solid var(--Secondary-secondary-100, #d6d3d2);
+    color: #a0a0a0;
+    cursor: not-allowed;
+}
+
+.back {
+    background: var(--WHITE, #fff);
+    border-radius: 100px;
+    border-top: 1px solid var(--Primary-primary-700, #2d71b5);
+    border-right: 1px solid var(--Primary-primary-700, #2d71b5);
+    border-left: 1px solid var(--Primary-primary-700, #2d71b5);
+    box-shadow: 0px 4px 0px 0px #2d71b5;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*(￣y▽￣)╭ Ohohoho..... Text Styles (￣y▽￣)╭ Ohohoho.....*/
+
+.buttonText {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.primaryText {
+    color: var(--BLACK, #0c0b0b);
+}
+
+.secondaryText {
+    color: var(--Primary-primary-700, #2d71b5);
+}
+
+.primaryOutlineText {
+    color: var(--Secondary-secondary-700, #45403a);
+}
+
+.primaryDisabledText {
+    color: var(--Secondary-secondary-400, #8a827a);
+}

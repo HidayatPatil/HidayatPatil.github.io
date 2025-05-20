@@ -4,8 +4,8 @@ const nextConfig = {
 	images: {
 		unoptimized: true, // Required if you're using the <Image> component
 	},
-	basePath: "/HidayatPatil.github.io", // Change to your GitHub repo name
-	assetPrefix: "/HidayatPatil.github.io", // Same as above
+	basePath: "/out/index.html", // Change to your GitHub repo name
+	assetPrefix: "/out/index.html", // Same as above
 };
 
 module.exports = nextConfig;
